@@ -84,6 +84,8 @@ td{
   background-color: #7e0820;
   text-transform: uppercase;
   align-items: center;
+  vertical-align: middle;
+  height: 100%;
 
 }
 /*Req 6c NEED FIX LATER*/
@@ -124,12 +126,12 @@ thead tr:first-child th:last-child {
 }
 
 /* bottom-left cell's border-radius */
-table tr:last-child td:first-child {
+thead tr:last-child td:first-child {
   border-bottom-left-radius: 10px;
 }
 
 /* bottom-right cell's border-radius */
-table tr:last-child td:last-child {
+thead tr:last-child td:last-child {
   border-bottom-right-radius: 10px;
 }
 
@@ -145,10 +147,11 @@ table {
 footer{
   min-height: 75px;
   width:100%;
-  background:#000000;
-  text-align:center;
-  color: #FFFFFF;
   position:fixed;
   bottom: 0;
+  left: 0;
+  text-align: center;
+  background:#000000;
+  color: #FFFFFF;
+  margin: auto;
 }
-
